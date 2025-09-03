@@ -1,0 +1,251 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: rgb(155, 155, 155);
+    height: 80px;
+}
+.para{
+    width: 100%;
+    height: 540px;
+    overflow: hidden;
+}
+
+footer{
+    background-color: rgb(155, 155, 155);
+    height: 40px; 
+}
+ul{
+    display: flex;
+   
+   
+}
+li{
+    padding-left: 10px;
+   list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 0%;
+    margin-left: 10px;
+
+}
+.icon{
+    height: 40px;
+    border-radius: 4px 4px 4px 4px;
+    display: inline;
+  padding-left: 5px;
+  
+    
+}
+.u1{
+    display: inline-flex;
+    margin-left: 1050px;
+    margin-top: -38px;
+
+}
+.u2{
+    display: inline-flex;
+    padding-top: 33px;
+}
+
+.icon:hover{
+    transform: scale(1.1);
+    
+}
+
+
+.a1{
+    display:inline;
+    
+    
+}
+.a2 {
+    justify-content: right;
+    display: inline;
+
+    
+    
+}
+.btn{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin-top: 170px;
+    height: 45px;
+    width: 250px;
+    border: 0px;
+    box-shadow: 2px 2px 2px;
+    
+}
+.btn:hover{
+    box-shadow: 2px 4px rgb(128, 156, 148);
+    transform: scale(1.1);
+    
+    
+}
+h1{
+    margin-top: 30px;
+}
+ .body{
+    
+    background-image: url("job.jpg");
+    background-repeat: no-repeat;  
+    overflow:hidden;  
+    background-size: cover;
+    background-position: center;
+
+}
+.vis{
+   height: 533px;
+} 
+.hea{
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+.par{
+   padding-top: 10px;
+padding-bottom: 10px;
+ 
+}
+.for{
+    height: 100%;
+    width: 100%;
+ 
+    max-width: 500px;
+    margin-left: 1px;
+    max-height: 300px;
+}
+
+.inpu{
+    margin-top: 15px;
+    padding-top: 7px;
+}
+
+.contact-info{
+    height: 533px;
+}
+.v{
+    height: 533px; 
+}
+
+.btn1{
+    background-color: rgb(112, 112, 112);
+    height: 25px;
+    width: 100px;
+    border: 0px;
+    box-shadow: 2px 2px 2px;
+    color: white;
+    margin-top: 20px;
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+ header .div1{
+    
+    height: 60px;
+    
+} 
+ 
+
+
+
+.h3{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    margin-left: 9px;
+}
+.div2 img{
+    float: right; 
+    margin-top: 12px;
+    margin-right: 12px;   
+}
+.div2 a img{
+    height: 4%;
+    width: 30px;
+    border-radius: 4px;
+}
+
+
+.div2 img:hover{
+    transform: scale(1.1);
+}
+.h3:hover{
+   transform: scale(1.1);
+}
+
+.imgg{
+    width: 100%;
+    
+}
+.divv{
+    height: 300px;
+    width: 40%;
+    margin-top: 15px;
+    display: flex;
+    float: left;
+    gap: 20px;
+    
+}
+.divv a , .divv1 a{
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    font-weight: bolder;
+    display: flex;
+    margin-top: 125px;
+    margin-left: 200px;
+    
+}
+.divv a:hover, .divv1 a:hover{
+    transform: scale(1.1);
+    text-shadow: 2px 2px 0px 2px ;
+}
+
+.divv1{
+    height: 300px;
+    width: 40%;
+    border-left: 0px solid black;
+    padding-left: 90px;
+    padding-right: 30px;
+    margin-top: 15px;
+    display: flex;
+    float: right;
+
+}
+.btn1{
+    background-color: rgb(0, 0, 0);
+    height: 35px;
+    width: 200px;
+    border: 0px;
+    box-shadow: 2px 2px 2px;
+    color: white;
+    margin-top: 20px;
+
+}
+header{
+    margin-top: 0%;
+    padding: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+} 
+
+ */
+

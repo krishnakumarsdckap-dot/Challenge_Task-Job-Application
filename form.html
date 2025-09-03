@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>application form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+   <form action="Application Form">
+        <!-- h1 -->
+         <center><h1>Job Application</h1></center>
+        <!-- first name -->
+        <label for="First Name" class="lab1">First Name :</label>
+        <input type="text" id="First Name" name="First Name" placeholder="Enter Your First Name" required>
+        <!-- last name  -->
+        <label for="Last Name " class="lab2">Last Name :</label>
+        <input type="text" id="Last Name " name="Last name" placeholder="Enter Your FirstName" required>
+        <!-- date of birth -->
+        <label for="Date Of Birth" class="lab3">Date Of Birth :</label>
+        <input type="date" id="Date Of Birth" name="Date Of Birth" placeholder="Enter Your Date Of Birth" required><br>
+        <!-- gender -->
+        <label for="gender" required class="lab4">Gender :</label>
+        <input type="radio" name="gender" value="male" class="inp"> <b class="bo">Male</b>
+        <input type="radio" name="gender" value="female" class="inp"> <b class="bo">Female</b>
+        <!-- Age -->
+        <label for="Age" class="lab5">Age :</label>
+        <input type="number" id="Age" name="Age" placeholder="Enter Your Age" required>
+        <!-- Blood group -->
+        <label for="Blood Group" class="lab6" required>Blood Group :</label>
+        <select name="Blood Group" class="input1">
+            <option value="A+">A+</option>
+            <option value="B=">B+</option>
+            <option value="A1+">A1+</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+        </select><br>
+        <!-- Nationality -->
+        <label for="Nationality" class="lab7 ">Nationality :</label>
+        <input type="text" id="Nationality" name="Nationality" placeholder="Enter Your Nationality" required>
+        <!-- Mother Name -->
+        <label for="Mother Name" class="lab8">Mother Name :</label>
+        <input type="text" id="Mother Name" name="Mother Name" placeholder="Enter Your Mother Name" required>
+        <!-- Father Name -->
+        <label for="Father Name" class="lab9">Father Name :</label>
+        <input type="text" id="Father Name" name="Father Name" placeholder="Enter Your Father Name" required><br>
+        <!-- Email -->
+        <label for="Email" class="lab10">Email :</label>
+        <input type="Email" id="Email" name="Email" placeholder="Enter Your Email" required>
+        <!-- Mobile Number  -->
+        <label for="Mobile Number" class="lab11">Mobile Number :</label>
+        <input type="tel" maxlength="10" id="Mobile Number" name="Mobile Number" placeholder="Enter Your Mobile Number"
+            required>
+        <!-- Address -->
+        <label for="Address" class="lab12">Address :</label>
+        <input type="text" id="Address" name="Address" placeholder="Enter Your Address" required><br>
+        <!-- District -->
+        <label for="District" class="lab13">District :</label>
+        <input type="text" id="District" name="District" placeholder="Enter Your District" required>
+        <!-- State -->
+        <label for="State" class="lab14">State :</label>
+        <input type="text" id="State" name="State" placeholder="Enter Your State" required>
+        <!-- Pincode -->
+        <label for="Pincode" class="lab15">Pincode :</label>
+        <input type="tel" maxlength="6" name="Pincode" id="Pincode" placeholder="Enter Your Pincode" required><br>
+
+        <!-- Courses -->
+
+        <label for="courses" class="lab16">Courses :</label>
+        <input type="checkbox" name="courses1" id="courses" value="HTML" required>  <b class="bo">HTML</b>
+        <input type="checkbox" name="courses2" id="courses" value="PHP" required>   <b class="bo">PHP</b>
+        <input type="checkbox" name="courses3" id="courses" value="MySql" required> <b class="bo">MySql</b>
+        <input type="checkbox" name="courses4" id="courses" value="Python" required><b class="bo">Python</b>
+        <!-- job role -->
+        <label for="Job Role" class="lab17" required > Job Role :</label>  
+        <select name="Job Role">
+            <option value="Software Developer">Software Developer</option>
+            <option value="Administrator">Administrator</option>
+            <option value="Full Stack Developer">Full Stack Developer</option>
+            <option value="Mern Stack Developer">Mern Stack Developer</option>
+        </select>
+        <!-- passout year -->
+        <label for="Passout Year" class="lab18">Passout Year :</label>
+        <input type="text" id="Passout Year" name="Passout Year" placeholder="Enter Your Passout Year" required><br>
+        <!-- File Upload -->
+        <label for="File Upload" class="lab19">File Upload :</label>
+        <input type="file" id="File Upload" name="File Upload" accept=".image,.pdf,.jpg,.png" required>
+        <!-- Experience Year -->
+        <label for="Experience Year" class="lab20">Experience Year :</label>
+        <input type="text" id="Experience Year" name="Experience Year" placeholder="Enter your experience year"
+            required>
+        <!-- Expected Salary -->
+        <label for="Expected Salary" class="lab21" required>Expected Salary :</label>
+        <select name="Expected Salary">
+            <option value="10000">$10000</option>
+            <option value="15000">$15000</option>
+            <option value="20000">$20000</option>
+            <option value="25000">$25000</option>
+            <option value="30000">$30000</option>
+        </select><br>
+        <!--Previous Company & Job Role  -->
+
+        <label for="Previous Company & Job Role" class="lab22">Previous Company & Job Role :</label>
+        <input type="text" id="Previous Company & Job Role" name="Previous Company & Job Role"
+            placeholder="Enter your previous company name and role" required><br>
+        <!-- Why do you choose this job? -->
+        <label for="Why do you choose this job?" class="lab23">Why do you choose this job?</label><br>
+        <textarea class="input" id="Why do you choose this job?" name="Why do you choose this job?" required></textarea><br>
+        <!-- button -->
+         <button >Submit</button><br>
+         
+    </form><br>
+      <p style="padding-top: 10px; float: right;"><a href="/home/dckap/Desktop/HTML/Jobapplication/index.html" style="text-decoration: none; color: black; font-size: x-large; font-weight: bold;">Back </a></p>
+   <br>
+</body>
+
+</html>
